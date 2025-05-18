@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  color: #fff;
+}
+body{
+  background-color: #111;
+}
+/* Webkit-scrollbar particular targets id's scroll display none remove it  */
+#worklist::-webkit-scrollbar {
+  display: none;
+}
+
+

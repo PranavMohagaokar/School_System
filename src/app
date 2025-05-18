@@ -1,0 +1,14 @@
+<React.StrictMode>
+<BrowserRouter>
+   <Header />
+  {/* <Courses/>  */}
+   {/* <Students/> */}
+
+ 
+</BrowserRouter>
+</React.StrictMode>
+
+  {/* <Report/> */}
+  <Dashboard/>
+{/* <SubjectForm/> */}
+<Subjects/>
