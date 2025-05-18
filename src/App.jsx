@@ -4,16 +4,15 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from './components/Other/Header'
 import Dashboard from './components/Functionality/Dashboard';
 import Students from './components/Functionality/Students';
-import Courses from './components/Functionality/Courses';// Assuming you have this component
+import Courses from './components/Functionality/Courses';
 import Subjects from './components/Functionality/Subjects';
-import Reports from './components/Functionality/Report';// Assuming you have this component
+import Reports from './components/Functionality/Report';
 
 const App = () => {
   return (
-    
+    <Router>
       <div className="min-h-screen flex flex-col">
         <Header />
-
         <main className="flex-grow bg-zinc-900 text-white p-6">
           <Routes>
             <Route path="/" element={<Dashboard />} />
@@ -24,9 +23,8 @@ const App = () => {
           </Routes>
         </main>
       </div>
-    
+    </Router>
   );
 };
 
 export default App;
-
