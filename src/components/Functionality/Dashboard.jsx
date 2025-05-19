@@ -41,11 +41,7 @@ const Dashboard = () => {
               Upcoming Events
             </button>
           </div>
-          <select className="border p-2 rounded  w-full sm:w-auto text-black">
-            <option>All Categories</option>
-            <option>Academic</option>
-            <option>Administrative</option>
-          </select>
+          
         </div>
 
         <ul className="space-y-4">
